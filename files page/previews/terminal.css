@@ -1,0 +1,92 @@
+body {
+    background-color: #000; /* Black background */
+    color: #0f0; /* Green text */
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+a {
+    color: #0f0;
+    font-size: 1.5rem; /* Larger font size */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Make it bold */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transition */
+}
+
+a:hover {
+    color: #fff; /* Change to white on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 20px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0f0;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-color: #0f0;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

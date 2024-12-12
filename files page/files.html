@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="files.css"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css catalog</title>
+    <title>CSS Catalog</title>
+    <link rel="stylesheet" href="dark-abstract.css">
+    <style>
+        /* Inline styles for quick demo, move to files.css */
+        .box {
+            border: 2px solid #333;
+            padding: 16px;
+            margin: 16px 0;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        .box h3 {
+            margin: 0 0 12px;
+            font-family: monospace;
+            color: #333;
+        }
+        .box button {
+            margin: 4px;
+            padding: 8px 12px;
+            font-family: Arial, sans-serif;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .box button a {
+            text-decoration: none;
+            color: white;
+        }
+        .box button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h2>css catalog!</h2>
-    <div>
-    <h3>terminal theme</h3>
-    <button><a href="/home.css" download>preview</a></button><button>download</button>
+    <h1>CSS Catalog!</h1>
+
+    <div class="box">
+        <h3>Terminal Theme</h3>
+        <button><a href="previews/terminal.css" download>Download</a></button>
+        <button><a href="previews/terminal.html">Preview</a></button>
+    </div>
+
+    <div class="box">
+        <h3>dark-abstract Theme</h3>
+        <button><a href="dark-abstract.css" download>Download</a></button>
+        <button><a href="previews/dark-abstract.html">Preview</a></button>
     </div>
 </body>
 </html>
